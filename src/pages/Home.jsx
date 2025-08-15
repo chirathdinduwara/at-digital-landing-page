@@ -4,8 +4,8 @@ import NavBar from "../components/NavBar";
 import Faq from "../components/Faq";
 import Footer from "../components/Footer";
 
-import pcImg from "../src/assets/pc.png";
-import searchImg from "../src/assets/search.png";
+import pcImg from "../assets/pc.png";
+import searchImg from "../assets/search.png";
 
 const Home = () => {
   return (
