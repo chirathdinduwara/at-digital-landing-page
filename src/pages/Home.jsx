@@ -4,6 +4,9 @@ import NavBar from "../components/NavBar";
 import Faq from "../components/Faq";
 import Footer from "../components/Footer";
 
+import pcImg from "../assets/pc.png";
+import searchImg from "../assets/search.png";
+
 const Home = () => {
   return (
     <>
@@ -13,7 +16,7 @@ const Home = () => {
         <div className="flex flex-col lg:flex-row gap-[30px] text-center items-center my-[20px] p-3.5">
           <img
             className="w-[275px] lg:w-[346px] max-w-full"
-            src="../src/assets/pc.png"
+            src={pcImg}
             alt="pc-icon"
           />
           <div className="flex flex-col gap-[20px] items-center lg:items-start">
@@ -46,7 +49,7 @@ const Home = () => {
           </div>
           <img
             className="w-[275px] lg:w-[346px] max-w-full"
-            src="../src/assets/search.png"
+            src={searchImg}
             alt="pc-icon"
           />
         </div>
