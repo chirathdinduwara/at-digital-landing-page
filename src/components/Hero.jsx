@@ -1,5 +1,5 @@
 import Btn from "./Btn";
-import hero from "../assets/hero.jpg";
+import hero from "../src/assets/hero.jpg";
 
 const Hero = () => {
   return (
